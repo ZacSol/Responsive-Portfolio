@@ -1,4 +1,5 @@
 body{
+    margin-top: 0px;
     color: white;
     text-align: center;
     background-color: black;
@@ -15,6 +16,8 @@ body::after {
     position: absolute;
     z-index: -1;
     content: "";
+  }
+  h1{
   }
 button{
     background-color: #32CD32;
@@ -52,9 +55,6 @@ li {
     background-color: black;
     margin: auto;
 }
-.profile{
-
-}
 .textbox{
     margin: 0px 5%;
 }
@@ -83,5 +83,4 @@ li {
     body::after {
         height: 1366px;
     }
-    container
 }
