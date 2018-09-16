@@ -1,4 +1,5 @@
 body{
+    font-family: 'Oswald', sans-serif;
     margin-top: 0px;
     color: white;
     text-align: center;
@@ -17,9 +18,8 @@ body::after {
     z-index: -1;
     content: "";
   }
-  h1{
-  }
 button{
+    font-family: 'Oswald', sans-serif;
     background-color: #32CD32;
     border: none;
     color: white;
@@ -47,6 +47,10 @@ ul{
 li {
     list-style-type: circle;
     list-style-position: inside;  
+}
+.container{
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .borderfit, .textbox, .profile{
     color: white;
